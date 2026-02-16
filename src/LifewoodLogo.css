@@ -1,0 +1,31 @@
+.lifewood-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lifewood-icon {
+  display: block;
+}
+
+.lifewood-text {
+  font-family: 'Manrope', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #133020;
+  letter-spacing: -0.5px;
+  text-transform: lowercase;
+}
+
+header .lifewood-text {
+  color: #FFFFFF;
+}
+
+header.scrolled .lifewood-text {
+  color: #133020;
+}
+
+footer .lifewood-text {
+  color: #FFFFFF;
+}
+
