@@ -53,10 +53,42 @@ function App() {
             </div>
             <nav className={`nav ${mobileMenuOpen ? 'active' : ''}`}>
               <a href="#home">Home</a>
-              <a href="#solutions">Solutions</a>
-              <a href="#data-services">Data Services</a>
-              <a href="#about">About</a>
-              <a href="#contact" className="nav-cta">Get Started</a>
+              <div className="nav-dropdown">
+                <a href="#ai-initiatives" className="nav-dropdown-trigger">AI Initiatives ▾</a>
+                <div className="nav-dropdown-menu">
+                  <a href="#ai-projects">AI Projects</a>
+                  <a href="#ai-data-extraction">AI Data Extraction</a>
+                  <a href="#ml-enablement">Machine Learning Enablement</a>
+                  <a href="#autonomous-driving">Autonomous Driving Technology</a>
+                </div>
+              </div>
+              <div className="nav-dropdown">
+                <a href="#our-company" className="nav-dropdown-trigger">Our Company ▾</a>
+                <div className="nav-dropdown-menu">
+                  <a href="#about">About Us</a>
+                  <a href="#values">Our Values</a>
+                  <a href="#mission">Our Mission</a>
+                  <a href="#know-us">Know Us Better</a>
+                </div>
+              </div>
+              <div className="nav-dropdown">
+                <a href="#what-we-offer" className="nav-dropdown-trigger">What We Offer ▾</a>
+                <div className="nav-dropdown-menu">
+                  <a href="#services">Services</a>
+                  <a href="#data-solutions">Data Solutions</a>
+                  <a href="#data-engineering">Data Engineering Services</a>
+                  <a href="#ai-data">AI Data Solutions</a>
+                </div>
+              </div>
+              <div className="nav-dropdown">
+                <a href="#careers" className="nav-dropdown-trigger">Careers ▾</a>
+                <div className="nav-dropdown-menu">
+                  <a href="#job-search">Job Search</a>
+                  <a href="#why-join">Why Join Lifewood?</a>
+                  <a href="#life-at-lifewood">Life at Lifewood</a>
+                </div>
+              </div>
+              <a href="#contact" className="nav-cta">Contact Us</a>
             </nav>
             <button 
               className="mobile-menu-btn"
