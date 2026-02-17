@@ -54,9 +54,9 @@ function App() {
             <nav className={`nav ${mobileMenuOpen ? 'active' : ''}`}>
               <a href="#home">Home</a>
               <a href="#solutions">Solutions</a>
-              <a href="#products">Products</a>
+              <a href="#data-services">Data Services</a>
               <a href="#about">About</a>
-              <a href="#contact">Contact</a>
+              <a href="#contact" className="nav-cta">Get Started</a>
             </nav>
             <button 
               className="mobile-menu-btn"
